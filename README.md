@@ -119,32 +119,6 @@ nvcc --version
 ```
 Should show version 12.x
 
-**Step 3: Enable GPU in config.yaml**
-```yaml
-transcription:
-  enabled: true
-  model_size: medium
-  device: auto    # auto (GPU if available), cuda (GPU only), or cpu
-```
-
-**Step 4: Verify GPU is working**
-```bash
-python -c "import ctranslate2; print(ctranslate2.get_supported_compute_types('cuda'))"
-```
-Should print: `['float32', 'float16', 'int8_float16', 'int8']`
-
-**Step 5: Test transcription**
-```bash
-python transcribe.py recordings/meeting.wav
-```
-Should show: `✓ CUDA available` and `Using device: cuda (float16)` ✓
-
-### Configuration Options
-
-- **`device: auto`** (default) — Uses GPU if available, falls back to CPU automatically
-- **`device: cuda`** — Forces GPU only (errors if CUDA unavailable)
-- **`device: cpu`** — Forces CPU (ignores GPU)
-
 ### Performance
 
 GPU transcription is typically **3–5x faster** than CPU on medium/large models:
