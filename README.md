@@ -13,7 +13,8 @@ Download the latest stub installer from the [GitHub Releases page](https://githu
 
 Run `AI-Note-Taker-Setup.exe` — it's a small (~15 MB) installer that downloads and installs the full app on first run. No Python or manual setup needed.
 
-On first run, the GUI will prompt you to enter your Claude API key (optional, for AI meeting minutes). The app saves your key securely for future use.
+On first run, the GUI will prompt you to enter your Claude API key (optional, for AI meeting minutes). The app saves your key securely for future use. Alternatively, you can go to Settings and input your API key there directly.
+
 On first run, the program will download the whisper model which can take a few minutes depending on the model. "Medium" whisper model is default and recommended.
 
 ### Main Features in GUI
