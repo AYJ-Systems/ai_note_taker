@@ -15,16 +15,6 @@ Run `AI-Note-Taker-Setup.exe` — it's a small (~15 MB) installer that downloads
 
 On first run, the GUI will prompt you to enter your Claude API key (optional, for AI meeting minutes). The app saves your key securely for future use.
 
-## Usage
-
-### Launch the GUI
-
-```bash
-python gui.py
-```
-
-The GUI provides an intuitive interface for all recording and transcription features.
-
 ### Main Features in GUI
 
 **Recording Panel:**
