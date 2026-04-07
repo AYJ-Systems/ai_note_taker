@@ -241,6 +241,6 @@ Under the following terms:
 - **NonCommercial** — You may not use this project for commercial purposes,
   including selling the software or incorporating it into commercial products
   or services.
-- **Attribution** — You must give appropriate credit when redistributing. ✓ Must remain open source
+- **Attribution** — You must give appropriate credit when redistributing.
 
 See [LICENSE](LICENSE) file for full details.
