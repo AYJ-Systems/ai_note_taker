@@ -215,16 +215,7 @@ ai_note_taker/
 ├── .env.example         # Template for .env file
 ├── requirements.txt     # Python dependencies
 ├── README.md            # This file
-├── assets/              # Templates and prompts
-│   ├── note_taker_prompt.txt           # Meeting minutes prompt
-│   ├── meeting_minutes_TEMPLATE.docx   # Word doc template
-│   └── possible_names.csv              # Attendee names for AI name recognition
-├── recordings/          # Audio output directory (auto-created)
-├── transcripts/         # Transcript output directory (auto-created)
-├── meeting_minutes/     # Meeting minutes output (auto-created)
 ├── utils/               # Utilities (ffmpeg, etc.)
-└── dist/                # Build output (created by build_exe.py)
-    └── AI Note Taker/   # Distribute this entire folder (zip it)
 ```
 
 ## License
